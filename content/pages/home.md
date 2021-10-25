@@ -9,13 +9,17 @@ blocks:
       them all together in `pages/[filename].tsx`, all based on a schema defined
       in `.tina/schema.ts`.
     actions:
+      - label: Action Label
+        type: button
+        icon: true
+        link: /
       - label: Get Started
         type: button
         icon: true
         link: /posts
-      - label: Read Blog
+      - label: Learn To Read
         type: link
-        icon: false
+        icon: true
         link: /posts
     image:
       src: >-
